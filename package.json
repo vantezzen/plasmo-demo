@@ -7,9 +7,9 @@
   "packageManager": "pnpm@6.19.1",
   "scripts": {
     "dev": "plasmo dev",
-    "dev:mv2": "plasmo dev --target=chrome-mv2",
+    "dev:mv2": "plasmo dev --target=firefox-mv2",
     "build": "plasmo build",
-    "build:mv2": "plasmo build --target=chrome-mv2"
+    "build:mv2": "plasmo build --target=firefox-mv2"
   },
   "dependencies": {
     "fontsource-poppins": "^4.0.0",
