@@ -1,21 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@plasmohq/storage': ^0.8.1
   '@trivago/prettier-plugin-sort-imports': 3.2.0
   '@types/chrome': 0.0.191
   '@types/node': 18.0.1
   '@types/react': 18.0.14
   '@types/react-dom': 18.0.5
   fontsource-poppins: ^4.0.0
-  plasmo: 0.52.0
+  plasmo: 0.52.1-alpha.0
   prettier: 2.7.1
   react: 18.2.0
   react-dom: 18.2.0
   typescript: 4.7.4
 
 dependencies:
+  '@plasmohq/storage': 0.8.1_react@18.2.0
   fontsource-poppins: 4.0.0
-  plasmo: 0.52.0_biqbaboplfbrettd7655fr4n2y
+  plasmo: 0.52.1-alpha.0_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1378,8 +1380,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@plasmohq/parcel-config/0.7.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-bSKANy8241SfWXR5qiX7XE1/eBLACm63zV+3O8irTcq9XnLPo+jJkFCgc1qtkmrmrJzUr6pxhS1z/nneha24ag==}
+  /@plasmohq/parcel-config/0.7.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-lqEqM73ODMqXBVJUmKq2GHTI058OX2xg9fuQR0pvnww3oy9+DH5EZqAc3YyGvVpRbQn3rLI6KagoDa6aczXhUA==}
     dependencies:
       '@parcel/config-default': 2.7.0_@parcel+core@2.7.0
       '@parcel/core': 2.7.0
@@ -1395,11 +1397,11 @@ packages:
       '@parcel/transformer-worklet': 2.7.0_@parcel+core@2.7.0
       '@plasmohq/parcel-bundler': 0.1.1
       '@plasmohq/parcel-namer-manifest': 0.0.0
-      '@plasmohq/parcel-packager': 0.0.1
+      '@plasmohq/parcel-packager': 0.0.2
       '@plasmohq/parcel-resolver': 0.2.2
       '@plasmohq/parcel-runtime': 0.3.3
       '@plasmohq/parcel-transformer-inject-env': 0.0.1
-      '@plasmohq/parcel-transformer-manifest': 0.1.0
+      '@plasmohq/parcel-transformer-manifest': 0.2.0
       '@plasmohq/parcel-transformer-svelte3': 0.1.1
       '@plasmohq/parcel-transformer-vue3': 0.1.1_biqbaboplfbrettd7655fr4n2y
     transitivePeerDependencies:
@@ -1469,8 +1471,8 @@ packages:
       '@parcel/utils': 2.7.0
     dev: false
 
-  /@plasmohq/parcel-packager/0.0.1:
-    resolution: {integrity: sha512-7EWS77ekxqZzicVwST237PGm7VHGGfzuG+MntWOgi/3RbMYV59vGOxO8R1Jp1BObYX8ecCuzvSKE7XyXhQB9zQ==}
+  /@plasmohq/parcel-packager/0.0.2:
+    resolution: {integrity: sha512-rmQtf/hNSV12+XsogB3jseCgPCY+BNALh1oqyfgUepPJbMcbjuVapJvco8o/Lx85OZdxDkN4IcBvAxRUkytDKg==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.7.0
@@ -1507,8 +1509,8 @@ packages:
       '@parcel/types': 2.7.0_@parcel+core@2.7.0
     dev: false
 
-  /@plasmohq/parcel-transformer-manifest/0.1.0:
-    resolution: {integrity: sha512-ZPXOXM5LpV6DwALaYt4/isHWfrTd15J8ZLHnhp9/+QljDCZPqd+lqxgjA7zAdmYUtu1+VSWuZD5IT7ZRM4L36w==}
+  /@plasmohq/parcel-transformer-manifest/0.2.0:
+    resolution: {integrity: sha512-b4NlaIxWbH5zsn1fPc9NW8PFQiXzd6I01iibYK9/ccwp56hHzNBUn04VvOuUKkyMLI+TK9titjpCGOyi7gxX/g==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@mischnic/json-sourcemap': 0.1.0
@@ -1595,6 +1597,14 @@ packages:
       - velocityjs
       - walrus
       - whiskers
+    dev: false
+
+  /@plasmohq/storage/0.8.1_react@18.2.0:
+    resolution: {integrity: sha512-P7Zy2+Csl4OkBoHakwVlrbzj6w4v0KGLRXzTdeOjdBVRD/cLQdtxG96yMNpTsAyIUeW1yMFtnSPVucMbGnnVuw==}
+    peerDependencies:
+      react: ^16.8.6 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@pnpm/network.ca-file/1.0.1:
@@ -3297,8 +3307,8 @@ packages:
     dev: false
     optional: true
 
-  /plasmo/0.52.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-i+pE0IwLSJgPRso7V+F/52eBybfLLj5NQZHHUSX69NiLlyty9NJmWkNuUK6erZgaEdnx10ZwTQb9QAJL7wOAgw==}
+  /plasmo/0.52.1-alpha.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-+07A97dN7G6ueWI9AbA03W0fwSJI7zL/JQDkOea+kGP0ARensMDSLCYNMWc+XcOdSD9/zS0U78ghcSWgefnNbQ==}
     hasBin: true
     dependencies:
       '@expo/spawn-async': 1.7.0
@@ -3307,7 +3317,7 @@ packages:
       '@parcel/package-manager': 2.7.0_@parcel+core@2.7.0
       '@parcel/watcher': 2.0.5
       '@plasmohq/init': 0.1.1
-      '@plasmohq/parcel-config': 0.7.1_biqbaboplfbrettd7655fr4n2y
+      '@plasmohq/parcel-config': 0.7.2_biqbaboplfbrettd7655fr4n2y
       archiver: 5.3.1
       buffer: 6.0.3
       chalk: 5.0.1
